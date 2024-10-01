@@ -14,6 +14,16 @@
     <main class="content">
       <section class="result">
         <div class="result__video-container">
+          <template class="preloader-template">
+            <div class="preloader">
+              <div class="preloader-chasing-squares">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+              </div>
+            </div>
+          </template>
           <video src="" controls class="result__video" poster=""></video>
         </div>
         <form class="search-form">
@@ -74,23 +84,21 @@
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
         <ul class="content__list">
-          <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
+          <template class="preloader-template">
+            <div class="preloader">
+              <div class="preloader-chasing-squares">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+              </div>
+            </div>
+          </template>
         </ul>
       </section>
     </main>
 
     <!-- ТЕМПЛЕЙТЫ -->
-
-    <template class="preloader-template">
-      <div class="preloader">
-        <div class="preloader-chasing-squares">
-          <div class="square"></div>
-          <div class="square"></div>
-          <div class="square"></div>
-          <div class="square"></div>
-        </div>
-      </div>
-    </template>
 
     <template class="cards-list-item-template">
       <li class="content__list-item">

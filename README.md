@@ -1,0 +1,1 @@
+[git@github.com:roooo6/posmotri_v_okno.git](https://github.com/roooo6/posmotri_v_okno.git)
