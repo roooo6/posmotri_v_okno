@@ -68,6 +68,11 @@ ol {
   
 }
 
+.content__details {
+  min-width: 399px;
+
+}
+
 
 .title {
   font-family: "oswald", sans-serif;
@@ -75,7 +80,7 @@ ol {
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 
 .content__accent {
@@ -238,7 +243,7 @@ ol {
   color: white;
   background-color: transparent;
   border: 1px solid currentColor;
-  font-family: "Fira Sans Condensed" "Arial", sans-serif;
+  font-family: "Fira Sans Condensed","Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -265,7 +270,7 @@ ol {
 }
 
 .more-button {
-  padding: 0 146.5px;
+  padding: 0 144.5px;
 }
 
 .visually-hidden {
